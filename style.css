@@ -19,9 +19,12 @@
 .container-ZMc96U.themed-Hp1KC_ {
     --background-primary: var(--background-header);
 }
-/* hardcoded */
-.theme-dark .container-2cd8Mz {
+/* hardcoded ಠ_ಠ */
+.theme-dark .container-2cd8Mz, .theme-dark .background-fkKrXt {
     background-color: var(--background-primary);
+}
+.theme-dark .headerBarInner-2pcZSM:after {
+    display: none; /* removes weird gradient in "Home" tab */
 }
 
 /* remove secondary background */
