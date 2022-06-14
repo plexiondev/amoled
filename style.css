@@ -8,6 +8,8 @@
     --background-tertiary: #000000;
     --background-floating: #0C0D0E;
 
+    --input-background: var(--background-secondary);
+
     --channeltextarea-background: #121315;
 
     --background-modifier-accent: #26282C; /* seperator */
