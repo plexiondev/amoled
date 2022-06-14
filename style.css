@@ -12,6 +12,8 @@
 
     --channeltextarea-background: #121315;
 
+    --background-modifier-hover: rgba(56, 58, 61, 0.2);
+    --background-modifier-selected: rgba(56, 58, 61, 0.5);
     --background-modifier-accent: #26282C; /* seperator */
 
     --background-header: #0C0D0E; /* custom */
