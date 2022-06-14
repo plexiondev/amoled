@@ -3,6 +3,6 @@
   "description": "based on the secret android/iOS theme",
   "version": "2022.0614",
   "author": "plexion",
-  "license": "GPLv3",
+  "license": "GPL-3.0",
   "theme": "style.css"
 }
