@@ -13,6 +13,9 @@
     --background-modifier-accent: #26282C; /* seperator */
 
     --background-header: #0C0D0E; /* custom */
+
+    --modal-background: var(--background-primary);
+    --modal-footer-background: var(--background-secondary);
 }
 
 /* apply header style */
@@ -30,4 +33,9 @@
 /* remove secondary background */
 .container-2o3qEW {
     --background-secondary: var(--background-primary);
+}
+
+/* remove modal shadows */
+.theme-dark .footerSeparator-VzAYwb {
+    box-shadow: none;
 }
