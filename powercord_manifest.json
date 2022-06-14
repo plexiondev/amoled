@@ -1,0 +1,8 @@
+{
+  "name": "AMOLED",
+  "description": "based on the secret android/iOS theme",
+  "version": "2022.0614",
+  "author": "plexion",
+  "license": "GPLv3",
+  "theme": "style.css"
+}
