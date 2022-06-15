@@ -42,6 +42,9 @@
 .theme-dark .keyboardShortcutsModal-2CRmCm {
     background-color: var(--modal-background); /* modal */
 }
+.theme-dark .popoutList-10IFAa {
+    background-color: var(--background-floating); /* dropdown */
+}
 .theme-dark .headerBarInner-2pcZSM:after {
     display: none; /* removes weird gradient in "Home" tab */
 }
