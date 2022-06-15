@@ -39,6 +39,9 @@
 .theme-dark .footer-1hTRRZ {
     background-color: var(--modal-footer-background); /* modal footer */
 }
+.theme-dark .keyboardShortcutsModal-2CRmCm {
+    background-color: var(--modal-background); /* modal */
+}
 .theme-dark .headerBarInner-2pcZSM:after {
     display: none; /* removes weird gradient in "Home" tab */
 }
