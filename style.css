@@ -27,7 +27,7 @@
     --background-primary: var(--background-header);
 }
 /* hardcoded ಠ_ಠ */
-.theme-dark .container-2cd8Mz, .theme-dark .background-fkKrXt {
+.theme-dark .container-2cd8Mz, .theme-dark .background-fkKrXt, .theme-dark .perksModal-CLcR1c {
     background-color: var(--background-primary);
 }
 .theme-dark .headerBarInner-2pcZSM:after {
