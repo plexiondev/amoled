@@ -20,15 +20,24 @@
 
     --modal-background: var(--background-primary);
     --modal-footer-background: var(--background-secondary);
+
+    /* powercord */
+    --toast-background: var(--background-floating);
+    --toast-header: var(--background-floating);
+    --toast-contents: var(--background-primary);
 }
 
 /* apply header style */
 .container-ZMc96U.themed-Hp1KC_ {
     --background-primary: var(--background-header);
 }
+
 /* hardcoded ಠ_ಠ */
 .theme-dark .container-2cd8Mz, .theme-dark .background-fkKrXt, .theme-dark .perksModal-CLcR1c {
-    background-color: var(--background-primary);
+    background-color: var(--background-primary); /* main background */
+}
+.theme-dark .footer-1hTRRZ {
+    background-color: var(--modal-footer-background); /* modal footer */
 }
 .theme-dark .headerBarInner-2pcZSM:after {
     display: none; /* removes weird gradient in "Home" tab */
