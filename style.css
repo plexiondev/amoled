@@ -42,7 +42,7 @@
 .theme-dark .keyboardShortcutsModal-2CRmCm {
     background-color: var(--modal-background); /* modal */
 }
-.theme-dark .popoutList-10IFAa, .theme-dark .popout-AVsFMl {
+.theme-dark .popoutList-10IFAa, .theme-dark .popout-AVsFMl, .theme-dark .autocomplete-3NRXG8, .categoryHeader-OpJ1Ly {
     background-color: var(--background-floating); /* dropdown / small popout */
 }
 .theme-dark .headerBarInner-2pcZSM:after {
