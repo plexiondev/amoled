@@ -46,11 +46,12 @@
 .theme-dark .popoutList-10IFAa, .theme-dark .popout-AVsFMl, .theme-dark .autocomplete-3NRXG8, .categoryHeader-OpJ1Ly {
     background-color: var(--background-floating); /* dropdown / small popout */
 }
-.theme-dark .headerBarInner-2pcZSM:after {
-    display: none; /* removes weird gradient in "Home" tab */
-}
 .theme-dark .featureModalMessage-fZR6jp, .theme-dark .bottomDivider-ZmTm-j, .theme-dark .paginator-1eqD2g, .theme-dark .codeRedemptionRedirect-2hYMSQ {
     background-color: var(--background-secondary); /* message container in modal */
+}
+
+.theme-dark .headerBarInner-2pcZSM:after {
+    display: none; /* removes weird gradient in "Home" tab */
 }
 
 /* remove secondary background */
