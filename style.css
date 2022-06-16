@@ -79,3 +79,9 @@
     background-color: var(--background-secondary);
     padding: 13px 20px;
 }
+
+/* append text to light theme option */
+div[aria-labelledby="uid_6525"] > :nth-child(2) .text-md-medium-2avxhQ:after {
+    content: 'ಠ_ಠ';
+    margin-left: 10px;
+}
