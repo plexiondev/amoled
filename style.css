@@ -48,6 +48,9 @@
 .theme-dark .headerBarInner-2pcZSM:after {
     display: none; /* removes weird gradient in "Home" tab */
 }
+.theme-dark .featureModalMessage-fZR6jp {
+    background-color: var(--background-secondary); /* message container in modal */
+}
 
 /* remove secondary background */
 .container-2o3qEW {
