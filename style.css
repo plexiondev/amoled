@@ -33,7 +33,7 @@
 }
 
 /* hardcoded ಠ_ಠ */
-.theme-dark .container-2cd8Mz, .theme-dark .background-fkKrXt, .theme-dark .perksModal-CLcR1c, .theme-dark .directoryModal-YJsOMv {
+.theme-dark .container-2cd8Mz, .theme-dark .background-fkKrXt, .theme-dark .perksModal-CLcR1c, .theme-dark .directoryModal-YJsOMv, .theme-dark .expandedInfo-1W31i3 {
     background-color: var(--background-primary); /* main background */
 }
 .theme-dark .footer-1hTRRZ {
@@ -48,7 +48,7 @@
 .theme-dark .headerBarInner-2pcZSM:after {
     display: none; /* removes weird gradient in "Home" tab */
 }
-.theme-dark .featureModalMessage-fZR6jp {
+.theme-dark .featureModalMessage-fZR6jp, .theme-dark .bottomDivider-ZmTm-j, .theme-dark .paginator-1eqD2g, .theme-dark .codeRedemptionRedirect-2hYMSQ {
     background-color: var(--background-secondary); /* message container in modal */
 }
 
@@ -67,4 +67,13 @@
     content: 'AMOLED (by plexion)';
     text-transform: initial;
     display: block;
+}
+
+/* connections */
+.connection-YOVI9j {
+    background-color: var(--background-primary);
+}
+.connectionHeader-Ixbb1s {
+    background-color: var(--background-secondary);
+    padding: 13px 20px;
 }
