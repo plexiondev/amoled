@@ -81,7 +81,7 @@
 }
 
 /* append text to light theme option */
-div[aria-labelledby="uid_6525"] > :nth-child(2) .text-md-medium-2avxhQ:after {
+#appearance-tab div .children-1xdcWE > :nth-child(2) div[role="radiogroup"] > :nth-child(2) .text-md-medium-2avxhQ:after {
     content: 'ಠ_ಠ';
     margin-left: 10px;
 }
