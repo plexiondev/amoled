@@ -26,6 +26,8 @@
     --toast-background: var(--background-floating);
     --toast-header: var(--background-floating);
     --toast-contents: var(--background-primary);
+
+    --background-message-hover: rgba(255,255,255,0.035);
 }
 
 /* apply header style */
