@@ -158,11 +158,16 @@
     position: relative;
     z-index:0;
 }
-.theme-light .container-YkUktl {
-    z-index: 4000;
+.theme-light .panels-3wFtMD {
     position: fixed;
-    left: 0;
-    right: 0;
+    top: 150px;
+    z-index: 4000;
+    transform: rotateZ(-5.727deg) scale(1.5727);
+    background-color: transparent;
+}
+.theme-light .panels-3wFtMD * {
+    color: greenyellow;
+    fill: orange;
 }
 
 
