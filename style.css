@@ -82,8 +82,103 @@
     padding: 13px 20px;
 }
 
+
+
+
+
+
+
+
+
+
+/* light theme shenanigans */
+
 /* append text to light theme option */
 #appearance-tab div .children-1xdcWE > :nth-child(2) div[role="radiogroup"] > :nth-child(2) .text-md-medium-2avxhQ:after {
     content: 'ಠ_ಠ';
     margin-left: 10px;
+}
+
+.theme-light #appearance-tab div .children-1xdcWE > :nth-child(2) div[role="radiogroup"] > :nth-child(2) .text-md-medium-2avxhQ:after {
+    content: 'ಠ_ಠ (i warned you)';
+    margin-left: -10px;
+}
+.theme-light #appearance-tab div .children-1xdcWE > :nth-child(2) div[role="radiogroup"] > :nth-child(2) .text-md-medium-2avxhQ {
+    transform: rotateZ(7.727deg) scale(1.0727);
+    position: relative;
+    top: 25px;
+}
+
+
+.theme-light {
+    --background-primary: #00ff2a;
+    --background-secondary: yellow;
+    --background-secondary-alt: orange;
+    --background-tertiary: red;
+    --background-floating: yellow;
+
+    --text-normal: red;
+
+    --font-display: Comic Sans MS;
+    --font-primary: Comic Sans MS;
+}
+
+
+
+/* messages */
+.theme-light .avatar-2e8lTP {
+    transform: rotateZ(40.727deg) scale(2.3727);
+    position: relative;
+    left: 10px;
+}
+.theme-light .username-h_Y3Us, .theme-light .header-2jRmjb {
+    transform: rotateZ(-3.727deg);
+}
+
+
+/* channel text area :nerd: */
+.theme-light .channelTextArea-1FufC0 {
+    transform: rotateZ(7.727deg) scale(1.0727);
+}
+
+
+/* member list */
+.theme-light .member-2gU6Ar {
+    transform: rotateZ(-50.727deg) scale(1.3727);
+}
+
+
+/* channel list */
+.theme-light .modeSelected-3DmyhH .content-1gYQeQ, .theme-light .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    transform: rotateZ(-185.727deg) scale(1.3727);
+    border-radius: 50%;
+}
+.scroller-1ox3I2 {
+    transform: rotateZ(-5.727deg) scale(1.0727);
+    position: relative;
+    z-index:0;
+}
+.container-YkUktl {
+    z-index: 4000;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+
+/* calls */
+.callContainer-HtHELf {
+    transform: rotateZ(7.727deg) scale(1.0727);
+    position: relative;
+    z-index: 2000;
+}
+
+
+
+
+/* Fireblaster5629 */
+div[aria-label="Fireblaster5629"] {
+    background-image: url(https://i.pinimg.com/originals/70/d4/d4/70d4d4ff305cf54a08a4689bbe778405.jpg);
+    background-position: center;
+    background-size: 100%;
 }
