@@ -28,6 +28,7 @@
     --toast-contents: var(--background-primary);
 
     --background-message-hover: rgba(255,255,255,0.035);
+    /* TODO: swap --background-mentioned & --background-mentioned-hover */
 }
 
 /* apply header style */
