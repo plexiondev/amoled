@@ -22,6 +22,13 @@
     --modal-background: var(--background-primary);
     --modal-footer-background: var(--background-secondary);
 
+    --scrollbar-thin-thumb: #0C0D0E;
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-thumb: #0C0D0E;
+	--scrollbar-auto-track: transparent;
+	--scrollbar-auto-scrollbar-color-thumb: #0C0D0E;
+	--scrollbar-auto-scrollbar-color-track: transparent;
+
     /* powercord */
     --toast-background: var(--background-floating);
     --toast-header: var(--background-floating);
