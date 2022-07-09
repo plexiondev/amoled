@@ -50,10 +50,10 @@
 .theme-dark .footer-1hTRRZ {
     background-color: var(--modal-footer-background); /* modal footer */
 }
-.theme-dark .keyboardShortcutsModal-2CRmCm {
+.theme-dark .keyboardShortcutsModal-2CRmCm, .theme-dark .scroller-2GkvCq {
     background-color: var(--modal-background); /* modal */
 }
-.theme-dark .popoutList-10IFAa, .theme-dark .popout-AVsFMl, .theme-dark .autocomplete-3NRXG8, .categoryHeader-OpJ1Ly {
+.theme-dark .popoutList-10IFAa, .theme-dark .popout-AVsFMl, .theme-dark .autocomplete-3NRXG8, .categoryHeader-OpJ1Ly, .theme-dark .container-KM8BU6, .theme-dark .reactors-1VXca7 {
     background-color: var(--background-floating); /* dropdown / small popout */
 }
 .theme-dark .featureModalMessage-fZR6jp, .theme-dark .bottomDivider-ZmTm-j, .theme-dark .paginator-1eqD2g, .theme-dark .codeRedemptionRedirect-2hYMSQ {
@@ -64,13 +64,17 @@
     display: none; /* removes weird gradient in "Home" tab */
 }
 
+.theme-dark .reactorDefault-3GSyaV {
+    box-shadow: none; /* removes border between reactors */
+}
+
 /* remove secondary background */
 .container-2o3qEW {
     --background-secondary: var(--background-primary);
 }
 
 /* remove modal shadows */
-.theme-dark .footerSeparator-VzAYwb, .header-3OsQeK {
+.theme-dark .footerSeparator-VzAYwb, .header-3OsQeK, .theme-dark .root-g14mjS {
     box-shadow: none;
 }
 
